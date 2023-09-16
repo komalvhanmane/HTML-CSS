@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(103, 148, 122);
+    padding: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navbar ul li{
+    padding: 5px;
+}
+
+.navbar ul li a{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Home */
+
+#home{
+    display: flex;
+    align-items: center;
+}
+
+.image img{
+    width: 50vw;
+}
+
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.btn{
+    background-color: rgb(103, 148, 122);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+    border-style: hidden;
+}
+
+/* Our Services */
+
+#service{
+    padding-top: 40px;
+}
+
+.primary{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.card h1{
+    padding: 6px;
+}
+
+.card p{
+    padding: 6px;
+}
+
+.card img{
+    height: 400px;
+} 
+
+.card{
+    width: 300px;
+}
